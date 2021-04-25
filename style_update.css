@@ -1,0 +1,71 @@
+h1 {
+    color: black;
+    font-size: 6vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-right: 25%;
+}
+
+.menuitem {
+    display: flex;
+    text-decoration: none;
+    top: 0vmin;
+    color: black;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav .menuitem:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding-left: 8%;
+    padding-bottom: 5%;
+    background-color: rgb(247, 245, 241);
+}
+
+.maintext {
+    padding-bottom: 5%;
+}
+
+#home {
+    color: burlywood
+}
+
+#logo {
+    width: 8%;
+}
+
+#grapes {
+    height: 100%;
+    position: absolute;
+    right: 1%;
+    top: 0px;
+}
+
+.button {
+    display: flex;
+    width: 15%;
+    flex-grow: 1;
+    font-size: 25pt;
+    border: 1pt solid;
+    border-color: burlywood;
+    border-right: 25pt solid burlywood;
+}
+
+#description {
+    font-family: 'Jost', sans-serif;
+    font-size: 20pt;
+    margin-right: 50%;
+}
